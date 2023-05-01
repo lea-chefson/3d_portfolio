@@ -141,13 +141,13 @@ import {
       ],
     },
     {
-      title: "Online French Teacher",
+      title: "Online Tech/French Teacher",
       company_name: "United Nations / Alliance Française",
       icon: shopify,
       iconBg: "#383E56",
       date: "July 2018 - Jan 2023",
       points: [
-        "Delivering engaging French lessons to students of all levels through digital platforms.",
+        "Delivering engaging Tech and French lessons to students of all levels through digital platforms.",
         "Utilizing cutting-edge technology and online resources to enhance the learning experience.",
         "Monitoring student progress and providing tailored feedback using digital assessment tools.",
         "Collaborating with fellow educators and participating in virtual professional development sessions.",
@@ -184,16 +184,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Voice Over Agency",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        " Modern landing page of a voice talent agency that allows clients to book voice-over services from a pool of talented artists.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "styled components",
           color: "green-text-gradient",
         },
         {
@@ -202,30 +202,30 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/lea-chefson/voice-over-agency-project",
     },
     {
-      name: "Job IT",
+      name: "Tech Start-up Website",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        " Website remodeling for a tech start-up delivering a modern and streamlined platform for customers to engage with client's products and services. With intuitive navigation and seamless integration, the website provides a convenient and efficient solution for all technology needs..",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "strapi",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "css",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/lea-chefson/tech-startup-project",
     },
-    {
+    /*{
       name: "Trip Guide",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
@@ -245,7 +245,7 @@ import {
       ],
       image: tripguide,
       source_code_link: "https://github.com/",
-    },
+    },*/
   ];
   
   export { services, technologies, experiences, testimonials, projects };
