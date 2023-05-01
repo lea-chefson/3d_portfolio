@@ -1,7 +1,6 @@
 {
   "name": "3d_portfolio",
   "private": true,
-  "homepage": "git@github.com:lea-chefson/3d_portfolio.git",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
