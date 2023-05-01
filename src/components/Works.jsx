@@ -72,6 +72,8 @@ const Works = () => {
           links to code repositories and live demos in it. It reflects my
           ability to solve complex problems, work with different technologies,
           and manage projects effectively.
+          <br/>
+          <span className="italic font-light text-xs">(Projects' content has been adjusted to meet the confidentiality needs of my clients.)</span>
         </motion.p>
       </div>
 
