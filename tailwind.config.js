@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#050816",
+        primary: "white",
         secondary: "#aaa6c3",
         tertiary: "#151030",
         "cyber-pink":"#bf61ff",
@@ -21,7 +21,7 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')",
+        "hero-pattern": "url('https://img.freepik.com/premium-vector/abstract-background-with-blue-purple-gradient-color-wave-line_662002-26.jpg?w=1800')",
       },
     },
   },

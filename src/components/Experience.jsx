@@ -11,7 +11,7 @@ import { textVariant } from "../utils/motion";
 const ExperienceCard = ({ experience }) => {
   return (
   <VerticalTimelineElement
-   contentStyle= {{ background: "#1d1836", color:"#fff"}}
+   contentStyle= {{ background: "#1d1836", color:"black"}}
    contentArrowStyle={{borderRight: "7px solid #232631"}}
    date={experience.date}
    iconStyle={{background: experience.iconBg}}
@@ -55,7 +55,7 @@ const Experience = () => {
       </motion.div>
 
       <div className="mt-20 flex flex-col">
-        <VerticalTimeline>
+        <VerticalTimeline >
           {experiences.map((experience, index) => (
             <ExperienceCard key={index} experience={experience} />
           ))}
