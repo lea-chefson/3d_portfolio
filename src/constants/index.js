@@ -22,6 +22,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    ecostruct
   } from "../assets";
   
   export const navLinks = [
@@ -43,18 +44,22 @@ import {
     {
       title: "Web Developer",
       icon: web,
+      skills:["html","css","github","netlify","wordpress"]
     },
     {
       title: "Web designer",
       icon: mobile,
+      skills:["html","css","github","netlify","wordpress"]
     },
     {
       title: "Frontend Developer",
       icon: backend,
+      skills:["html","css","github","netlify","wordpress"]
     },
     {
       title: "Graphic Designer",
       icon: creator,
+      skills:["html","css","github","netlify","wordpress"]
     },
   ];
   
@@ -183,6 +188,27 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Ecostruct Holdings",
+      description:
+        " Remodeled website to provide a simple and efficient way for customers to contact the company and learn more about its products and services. The website features a clear and concise contact form and an informative news page, making it easy for customers to get the information they need.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ecostruct,
+      source_code_link: "https://github.com/lea-chefson/ecostruct",
+    },
     {
       name: "Voice Over Agency",
       description:

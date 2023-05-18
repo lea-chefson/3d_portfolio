@@ -12,7 +12,7 @@ const [toggle, setToggle] = useState(false);
   return (
     <nav
       className={`
-        ${styles.paddingX} w-full items-center py-5 fixed top-0 z-20 bg-primary border-b border-cyber-pink`}
+        ${styles.paddingX} w-full items-center py-5 fixed top-0 z-20 bg-gradient-to-r from-sf_cyan via-sf_pink to-sf_blue shadow-lg border-b-2 border-black`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link 
@@ -22,7 +22,7 @@ const [toggle, setToggle] = useState(false);
           setActive("");
           window.scrollTo(0,0);
         }}>
-          <img src={logo} alot="logo" className="w-9 h-9 object-contain"/>
+          <img src={logo} alt="logo" className="w-9 h-9 object-contain"/>
           <p className="text-white text-[18px] font-bold curson-pointer flex">Lea &nbsp;<span className="sm:block hidden">Girier</span></p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
@@ -31,9 +31,9 @@ const [toggle, setToggle] = useState(false);
             key={link.id}
             className={`${
               active === link.title
-              ?"text-white"
-              : "text-secondary"
-            } hover:text-white text-[18px] font-medium cursor-pointer`}
+              ?"text-black"
+              : "text-white"
+            } hover:text-black text-[18px] font-medium cursor-pointer`}
             onClick={()=> setActive(link.title)}
             >
               <a href={`#${link.id}`}>{link.title}</a>
@@ -54,7 +54,7 @@ const [toggle, setToggle] = useState(false);
             className={`${
               active === link.title
               ?"text-white"
-              : "text-secondary"
+              : "text-white"
             } font-poppins font-medium cursor-pointer text-[16px]`}
             onClick={()=> {setActive(link.title);
             setToggle(!toggle)}}

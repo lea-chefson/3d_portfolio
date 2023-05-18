@@ -5,6 +5,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        sf_cyan:"#0CC8AE",
+        sf_pink:"#579CD0",
+        sf_blue:"#B766FB",
         primary: "white",
         secondary: "#aaa6c3",
         tertiary: "#151030",
@@ -15,13 +18,13 @@ module.exports = {
         "white-100": "#f3f3f3",
       },
       boxShadow: {
-        card: "0px 35px 120px -15px #211e35",
+        card: "0px 0px 30px #211e35",
       },
       screens: {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('https://img.freepik.com/premium-vector/abstract-background-with-blue-purple-gradient-color-wave-line_662002-26.jpg?w=1800')",
+        "hero-pattern": "url('../src/assets/bg_white.png')",
       },
     },
   },

@@ -15,16 +15,16 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText}`}>Hi, I'm <span className="absolute bg-gradient-to-r text-transparent bg-clip-text from-cyber-green to-cyber-pink">Lea Girier</span></h1>
+          <h1 className={`${styles.heroHeadText}`}>Hi, I'm <span className="bg-gradient-to-r text-transparent bg-clip-text from-cyber-green to-cyber-pink whitespace-pre"> Lea Girier</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-black`}>
-            Web Developer / Front-end Developer / Graphic Designer <br className="sm:block hidden"/><span className='font-400 italic'>Creating beautiful and engaging web experiences.</span>
+            Web Developer / Front-end Developer / Graphic Designer <br className="sm:block hidden"/><span className='font-normal text-2xl italic'>Creating beautiful and engaging web experiences.</span>
           </p>
         </div>
       </div>
     <ComputersCanvas/>
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
-          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
+          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-black flex justify-center items-start p-2">
             <motion.div
              animate={{
               y:[0,24,0]
@@ -34,7 +34,7 @@ const Hero = () => {
               repeat: Infinity,
               repeatType:'loop',
              }}
-             className="w-3 h-3 rounded-full bg-secondary mb-1"
+             className="w-3 h-3 rounded-full bg-black mb-1"
             />
           </div>
         </a>

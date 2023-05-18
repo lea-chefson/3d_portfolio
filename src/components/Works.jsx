@@ -16,7 +16,9 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
     scale:1,
     speed:450,
    }}
-   className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
+   className="green-pink-gradient p-[4px] rounded-[20px] shadow-card shadow-sf_pink"
+   >
+    <div className="bg-tertiary p-5 rounded-2xl sm:w-[320px] w-full">
     <div className="relative w-full h-[230px]">
       <img
         src={image}
@@ -36,7 +38,8 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           />
         </div>
       </div>
-    </div>
+      </div>
+    
 
     <div classNampe="mt-5">
       <h3 className="text-white font-bold text-[24px]">{name}</h3>
@@ -49,6 +52,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           {tag.name}
         </p>
       ))}
+    </div>
     </div>
    </Tilt>
   </motion.div>
@@ -66,7 +70,7 @@ const Works = () => {
       <div className="w-full flex">
         <motion.p
         variants={fadeIn("","", 0.1, 1)}
-        className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
+        className="mt-3 text-black text-[17px] max-w-3xl leading-[30px]">
            Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
           links to code repositories and live demos in it. It reflects my
