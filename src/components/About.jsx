@@ -25,7 +25,7 @@ const ServiceCard = ({title, index, icon,skills}) => {
           <img src={icon} alt="title" 
           className="w-16 h-16 object-contain"/>
           <h3 className="text-white text-[20px] font-bold text-center">{title}</h3>
-          <ul>
+          <ul className="flex flex-wrap gap-2 font-light text-sf_pink">
           {skills.map((skill,i) => (
               <li key={i}>{skill}</li>
             ))}

@@ -49,17 +49,17 @@ import {
     {
       title: "Web designer",
       icon: mobile,
-      skills:["html","css","github","netlify","wordpress"]
+      skills:["figma","tailwind", "bootstrap"]
     },
     {
       title: "Frontend Developer",
       icon: backend,
-      skills:["html","css","github","netlify","wordpress"]
+      skills:["react","javascript","node.js"]
     },
     {
       title: "Graphic Designer",
       icon: creator,
-      skills:["html","css","github","netlify","wordpress"]
+      skills:["ps","ai","inkscape","midjourney"]
     },
   ];
   
@@ -208,11 +208,12 @@ import {
       ],
       image: ecostruct,
       source_code_link: "https://github.com/lea-chefson/ecostruct",
+      source_code_link2: "https://lea-chefson.github.io/ecostruct/",
     },
     {
       name: "Voice Over Agency",
       description:
-        " Modern landing page of a voice talent agency that allows clients to book voice-over services from a pool of talented artists.",
+        " Modern landing page of a voice talent agency that allows clients to book voice-over services from a pool of talented artists.The website was developed using modern technologies like Tailwind CSS and Style Components, resulting in a dynamic and visually appealing design.",
       tags: [
         {
           name: "react",
@@ -229,6 +230,7 @@ import {
       ],
       image: carrent,
       source_code_link: "https://github.com/lea-chefson/voice-over-agency-project",
+      source_code_link2: "https://voice-over-project.netlify.app/",
     },
     {
       name: "Tech Start-up Website",
@@ -250,6 +252,7 @@ import {
       ],
       image: jobit,
       source_code_link: "https://github.com/lea-chefson/tech-startup-project",
+      source_code_link2: "https://lea-chefson.github.io/tech-startup-project/",
     },
     /*{
       name: "Trip Guide",

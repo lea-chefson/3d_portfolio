@@ -2,12 +2,12 @@ import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github } from "../assets";
+import { github, weblink } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
+const ProjectCard = ({ index, name, description, tags, image, source_code_link2 }) => {
  return (
   <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75 )}>
    <Tilt
@@ -29,12 +29,22 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
       <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
         <div
         onClick={() => window.open (source_code_link, "_blank")}
-        className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+        className="black-gradient w-8 h-8 mr-2 rounded-full flex justify-center items-center cursor-pointer shadow-lg shadow-sf_cyan hover:shadow-white hover:invert"
         >
           <img
             src={github}
             alt="github"
-            className="w-1/2 h-1/2 object-contain"
+            className="w-full object-contain"
+          />
+        </div>
+        <div
+        onClick={() => window.open (source_code_link2, "_blank")}
+        className="black-gradient w-8 h-8 rounded-full flex justify-center items-center cursor-pointer"
+        >
+            <img
+            src={weblink}
+            alt="weblink"
+            className="w-full object-contain rounded-full invert shadow-lg shadow-green-500 hover:shadow-white hover:invert-0 hover:bg-white"
           />
         </div>
       </div>
@@ -42,7 +52,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
     
 
     <div classNampe="mt-5">
-      <h3 className="text-white font-bold text-[24px]">{name}</h3>
+      <h3 className="text-white font-bold text-[24px] pt-2 pb-1">{name}</h3>
       <p className="mt-2 text-secondary text-[14px]">{description}</p>
     </div>
 

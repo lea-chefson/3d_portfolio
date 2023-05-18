@@ -15,13 +15,13 @@ const ExperienceCard = ({ experience }) => {
     borderImage: "linear-gradient(to bottom, #0CC8AE, #579CD0, #B766FB) 1", background: "#1d1836", color:"black"}}
    contentArrowStyle={{borderRight: "10px solid #232631"}}
    date={experience.date}
-   iconStyle={{background: experience.iconBg}}
+   iconStyle={{background: experience.iconBg, boxShadow: "0px 0px 0px 5px #B766FB"}}
    icon={
     <div className="flex justify-center items-center w-full h-full rounded-full">
       <img
         src={experience.icon}
         alt={experience.company_name}
-        className="w-[100%] h-[100%]  rounded-full"
+        className="w-[100%] h-[100%]  bg-black rounded-full"
       />
     </div>
    }
