@@ -233,26 +233,26 @@ import {
       source_code_link2: "https://voice-over-project.netlify.app/",
     },
     {
-      name: "Tech Start-up Website",
+      name: "French Learning Kit",
       description:
-        " Website remodeling for a tech start-up delivering a modern and streamlined platform for customers to engage with client's products and services. With intuitive navigation and seamless integration, the website provides a convenient and efficient solution for all technology needs..",
+        " Transforming the boutique page of a WordPress website to optimize user flow and deliver an enhanced experience. Employing modern design principles, I revamped the layout and structure to create a dynamic and visually captivating design.",
       tags: [
         {
-          name: "react",
+          name: "Wordpress",
           color: "blue-text-gradient",
         },
         {
-          name: "strapi",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "UI",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/lea-chefson/tech-startup-project",
-      source_code_link2: "https://lea-chefson.github.io/tech-startup-project/",
+      source_code_link: "/",
+      source_code_link2: "https://www.thefrenchlearningkit.com/boutique/",
     },
     /*{
       name: "Trip Guide",

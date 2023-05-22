@@ -19,6 +19,14 @@
   display: block;
 }
 
+@media (max-width: 768px) {
+  .hash-span {
+    margin-top: 10px;
+    padding-bottom: 0px;
+     /* Adjust the padding value accordingly */
+  }
+}
+
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
